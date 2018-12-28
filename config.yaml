@@ -1,0 +1,15 @@
+#-------------make_dataset----------------------
+train_img_dir: '/home/ldq/LDQ/Codes/FDCNN/PDCNN/Data/BID/'
+# caffe style train labels
+train_label_file: './BIDlabel.txt'
+
+# dir to store all the preprocessed files
+tar_root_dir: './data/'  
+tar_train_dir: './data/image_all/'  
+tar_label_dir: './data/labels/'  
+misc_dir: './data/misc/'  
+
+#enable or disable data label #True or False
+enable_label: True
+img_width:  500
+img_height: 500
